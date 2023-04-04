@@ -7,7 +7,7 @@ const app = express();
 const usercontroller = require("./controller/user");
 
 dotenv.config();
-const port = process.env.port;
+const port = process.env.PORT;
 const DB = process.env.DATABASE_URL;
 
 app.use(cors());
