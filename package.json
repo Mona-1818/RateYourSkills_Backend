@@ -1,27 +1,21 @@
 {
   "name": "rateyourskills_backend",
   "version": "1.0.0",
-  "description": "This is the Backend of RateYourSkills",
-  "main": "index.js",
+  "description": "backend",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon index.js"
+    "start": "nodemon server.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Mona-1818/RateYourSkills_Backend.git"
-  },
-  "author": "RateYourSkills",
+  "author": "Rate Your Skills",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Mona-1818/RateYourSkills_Backend/issues"
-  },
-  "homepage": "https://github.com/Mona-1818/RateYourSkills_Backend#readme",
   "dependencies": {
-    "body-parser": "^1.20.2",
+    "bcryptjs": "^2.4.3",
     "cors": "^2.8.5",
     "dotenv": "^16.0.3",
     "express": "^4.18.2",
+    "express-async-handler": "^1.2.0",
+    "jsonwebtoken": "^9.0.0",
     "mongoose": "^7.0.3",
     "nodemon": "^2.0.22"
   }
